@@ -1,0 +1,51 @@
+section {
+    height: 100vh;
+    /* background-image: url("../public/images/model-3.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .modelName {
+    padding-top: 6rem;
+    text-align: center;
+}
+
+section .modelName h1 {
+    font-size: 3rem;
+}
+
+section .cta {
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+section .cta img {
+    width: 40px;
+}
+
+section .cta a {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2rem;
+    width: 250px;
+    padding: 10px 30px;
+    text-align: center;
+    margin: 0 0.25rem 2rem 0;
+}
+
+section .cta .left {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+
+section .cta .right {
+    background-color: #fff;
+    color: #000;
+}
